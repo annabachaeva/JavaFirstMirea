@@ -2,6 +2,8 @@ package ru.mirea.task10;
 
 import java.util.Scanner;
 
+//простое число
+
 public class Var_6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
