@@ -32,8 +32,7 @@ public class Digit {
                     label.setText("Попробуйте ввести заново");
                 }
                 else if (label.getText()=="Вы выиграли" || label.getText() =="Вы проиграли"){
-                    //System.out.println("ПЕРЕИГРЫВАНИЕ");
-                    //System.out.println("###############################################");
+
                     text.setText("");
                     replay(label);
                     button.setText("Ввести");

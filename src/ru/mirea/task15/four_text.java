@@ -10,14 +10,21 @@ public class four_text {
         System.out.println("Введите слово: ");
         String text = in.nextLine();
 
+        String enter = "\n";
+
         try {
             FileWriter writer = new FileWriter(filePath, true);
             BufferedWriter bufferWriter = new BufferedWriter(writer);
-            bufferWriter.write(text);
-            bufferWriter.close();
+            PrintWriter out = new PrintWriter(bufferWriter);
+
+            //out.println(enter);
+            out.println(enter + text);
+            out.close();
+            //bufferWriter.write(text);
+            //bufferWriter.close();
         }
         catch (IOException e) {
-            System.out.println(e);
+            System.out.println(e.getMessage());
         }
 
     }
