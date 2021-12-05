@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class OnlineWallet implements Strategy {
+    //использование hashmap для хранения данных о пользователе
     private static final Map<String, String> DATA_BASE = new HashMap<>();
     private final BufferedReader READER = new BufferedReader(new InputStreamReader(System.in));
     private String email;
