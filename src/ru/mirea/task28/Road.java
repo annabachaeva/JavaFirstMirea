@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Random;
 
 public class Road extends JPanel implements ActionListener, Runnable {
-
+    
     Timer mainTimer = new Timer(20, this); //запускает функция каждые 20 милисекунд
 
     Image img = new ImageIcon("C:\\Users\\Аня\\Desktop\\уник\\java\\тачки\\background.jpg").getImage();
